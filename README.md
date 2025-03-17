@@ -1,22 +1,24 @@
 ## 폴더 구조
-LearnCleanArchitecture/
-├── Data/
-│   ├── APIService.swift
-│   ├── DataSources/
-│   │   └── RemotePostsDataSource.swift
-│   └── Repositories/
-│       └── PostsRepository.swift
-├── Domain/
-│   ├── Entities/
-│   │   └── Post.swift
-│   └── UseCases/
-│       └── GetPostsUseCase.swift
-└── Presentation/
-    ├── ViewModels/
-    │   └── PostsViewModel.swift
-    └── Views/
-        └── ContentView.swift
 
+    LearnCleanArchitecture/  
+    ├── Data/  
+    │   ├── APIService.swift  
+    │   ├── DataSources/  
+    │   │   └── RemotePostsDataSource.swift  
+    │   └── Repositories/  
+    │       └── PostsRepository.swift  
+    ├── Domain/  
+    │   ├── Entities/  
+    │   │   └── Post.swift  
+    │   └── UseCases/  
+    │       └── GetPostsUseCase.swift  
+    └── Presentation/  
+        ├── ViewModels/  
+        │   └── PostsViewModel.swift  
+        └── Views/  
+            └── ContentView.swift  
+        
+  
 ## 계층 설명
 ### 1. Presentation (표현 계층)
 Views: 사용자가 직접 보고 상호작용하는 UI 부분입니다.
